@@ -36,7 +36,7 @@ Esta API maneja el procedimiento de compra de un producto de manera simulada, ya
 5. **Iniciar el servidor:**
    - Para iniciar el servidor, ejecuta:
      ```bash
-     node index.js
+     node app.js
      ```
 6. **Crear en "mongodb compass" la base de datos: **
    Si no tienes instalado mongodb, ingresa a este link https://www.mongodb.com/try/download/community.
@@ -119,3 +119,4 @@ Esta API maneja el procedimiento de compra de un producto de manera simulada, ya
 
 ## 📌 Notas adicionales
 - El puerto es *3001* a diferencia de la otra api. 
+- A diferencia de auth, el archivo "principal" se llama *app.js* en vez de index.js
